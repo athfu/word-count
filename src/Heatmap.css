@@ -1,0 +1,104 @@
+/*
+ * react-calendar-heatmap styles
+ *
+ * All of the styles in this file are optional and configurable!
+ * The github and gitlab color scales are provided for reference.
+ */
+
+ .react-calendar-heatmap text {
+  font-size: 10px;
+  fill: #565656;
+}
+
+.react-calendar-heatmap {
+  max-width: 300px;
+}
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+  font-size: 7px;
+  fill: #565656;
+}
+
+.dayWrapper1 {
+  width: 200px;
+  height: 50px;
+}
+
+.react-calendar-heatmap rect:hover {
+  stroke: #8d8d8d;
+  stroke-width: 1px;
+}
+
+/*
+ * Default color scale
+ */
+
+.react-calendar-heatmap .color-empty {
+  fill: #eeeeee;
+}
+
+.react-calendar-heatmap .color-filled {
+  fill: #8cc665;
+}
+
+/*
+ * Github color scale
+ */
+
+.react-calendar-heatmap .color-github-0 {
+  fill: #eeeeee;
+}
+.react-calendar-heatmap .color-github-1 {
+  fill: #d6e685;
+}
+.react-calendar-heatmap .color-github-2 {
+  fill: #8cc665;
+}
+.react-calendar-heatmap .color-github-3 {
+  fill: #44a340;
+}
+.react-calendar-heatmap .color-github-4 {
+  fill: #1e6823;
+}
+
+/*
+ * Gitlab color scale
+ */
+
+.react-calendar-heatmap .color-gitlab-0 {
+  fill: #ededed;
+}
+.react-calendar-heatmap .color-gitlab-1 {
+  fill: #acd5f2;
+}
+.react-calendar-heatmap .color-gitlab-2 {
+  fill: #7fa8d1;
+}
+.react-calendar-heatmap .color-gitlab-3 {
+  fill: #49729b;
+}
+.react-calendar-heatmap .color-gitlab-4 {
+  fill: #254e77;
+}
+
+/*
+ * purple color scale
+ */
+
+ .react-calendar-heatmap .color-purple-0 {
+  fill: #ededed;
+}
+.react-calendar-heatmap .color-purple-1 {
+  fill: #f0ceff;
+}
+.react-calendar-heatmap .color-purple-2 {
+  fill: #e1affd;
+}
+.react-calendar-heatmap .color-purple-3 {
+  fill: #ca8dfd;
+}
+.react-calendar-heatmap .color-purple-4 {
+  fill: #b042ff;
+}
+.react-calendar-heatmap .color-purple-5 {
+  fill: #9300ff;
+}
